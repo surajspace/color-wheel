@@ -1,0 +1,36 @@
+
+
+.canvas-container {
+
+}
+
+.selector-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.main-color {
+	border-radius: 50%;
+	border: solid 1px black;
+	box-shadow: 0px 0px 4px black;
+	pointer-events: none;
+}
+
+.color-harmony div {
+	margin-bottom: 10px;
+}
+
+.color-harmony div span:first-child{
+	margin-right: 10px;
+}
+
+.color-harmony-individual {
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	border-radius: 3px;
+	margin: 0px 3px;
+	position: relative;
+	top: 5px;
+}
